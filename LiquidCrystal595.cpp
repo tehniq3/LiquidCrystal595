@@ -27,23 +27,23 @@
  * Red wire to +5v
  *
  * -----Shift Reg to LCD--------
- * SR Pin 15  - ENABLE        10000000
- * SR Pin 1   - D7            00000010
- * SR Pin 2   - D6            00000100
- * SR Pin 3   - D5            00001000
- * SR Pin 4   - D4            00010000
- * SR Pin 5   - MOSFET / LED1 00100000
- * SR Pin 6   - LED 2         01000000
- * SR Pin 7   - RS            00000001
+ * SR Pin 15  - ENABLE         10000000
+ * SR Pin 1   - D7             00000010
+ * SR Pin 2   - D6             00000100
+ * SR Pin 3   - D5             00001000
+ * SR Pin 4   - D4             00010000
+ * SR Pin 5   - MOSFET / LED1  00100000
+ * SR Pin 6   - LED 2          01000000
+ * SR Pin 7   - RS             00000001
  *
  * -----------------------------------------------------------------------------------
  */
 // 595 mappings - LED1 is also the backlight controller
 
-#define ENABLE_PIN  B00000001
+#define ENABLE_PIN      B00000001
 #define RS_PIN		B10000000
-#define LED1_PIN    B00100000
-#define LED2_PIN    B01000000
+#define LED1_PIN        B00100000
+#define LED2_PIN        B01000000
 #define DATABITS	B00011110
 #define PIN_D4		B00010000
 #define PIN_D5		B00001000
